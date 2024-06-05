@@ -1,0 +1,43 @@
+body {
+    background-color: #dddddd;
+}
+
+h2 {
+    margin: 0 0 100px 170px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    padding-top: 100px;
+}
+
+input {
+    width: 300px;
+    margin-left: 80px;;
+}
+
+button {
+    margin: 70px 0 0 130px;
+    background-color: #00da00;
+    height: 30px;
+    width: 200px;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 550px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Connexion et Inscription</title>
+</head>
+
+<body>
+    <h1><a href="/">Projet Firebase</a></h1>
+    <div class="login">
+        <h2>Connexion</h2>
+        <form id="login-form">
+            <input type="email" id="login-email" placeholder="Email" required>
+            <br><br>
+            <input type="password" id="login-password" placeholder="Mot de passe" required>
+            <br><br>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+
+    <div class="signup">
+        <h2>Inscription</h2>
+        <form id="signup-form">
+            <input type="email" id="signup-email" placeholder="Email" required>
+            <br><br>
+            <input type="password" id="signup-password" placeholder="Mot de passe" required>
+            <br><br>
+            <button type="submit">S'inscrire</button>
+        </form>
+        <br><br>
+    </div>
+    <button id="logout-button">Se déconnecter</button>
+
+    <script src="auth.js"></script>
+</body>
